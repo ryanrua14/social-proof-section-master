@@ -1,0 +1,14 @@
+.left{
+    .bigText{
+        @include textColor($magneta, $spartan, 900, 48px);
+    }//End bigtext
+    p{
+        @include textColor($darkGrayMagneta, $spartan, $sevenHundred, $fifteenPx);
+    }//End p
+}//End class
+
+@media only screen and (max-width: 740px){
+    .left{
+        width: 100%;
+    }//End
+}//End

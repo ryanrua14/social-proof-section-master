@@ -1,2 +1,15 @@
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
+
+@import 'vendors/bootstrap';
+
+@import 'base/typography';
+
+@import 'components/section';
+    
+@import 'layout/quotes';
+@import 'layout/left-text';
+@import 'layout/right-ratings';
+@import 'layout/footer';
+
+@import 'theme/theme.scss';

@@ -1,0 +1,25 @@
+@mixin backgroundColor($magneta){
+    background:{
+        color: $magneta;
+    }//End background
+}//End mixin
+
+@mixin textColor($color, $spartan, $weight, $size){
+    color: $color;
+    font:{
+        family: $spartan;
+        weight: $weight;
+        size: $size;
+    }//End font
+}//End mixin
+
+@mixin centerAll($center){
+    align-content: $center;
+    align-items: $center;
+    justify-content: $center;
+    text-align: $center;
+}
+
+@mixin roundedBorder($pixels){
+    border-radius: $pixels;
+}

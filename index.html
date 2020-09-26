@@ -9,53 +9,89 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="images/favicon-32x32.png";
     />
+      <link rel="stylesheet" href="stylesheets/main.css" type="text/css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <title>Frontend Mentor | Social proof section</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    10,000+ of our users love our products.
+    <div class="container"> 
+        <section class="flex-container">
+            <aside class="flex-child left">
+                <p class="bigText">10,000+ of our users love our products.</p>
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Ryan Rua</a>.
-    </div>
+                <p>We only provide great products combined with excellent customer service.
+                    See what our satisfied customers are saying about our services.</p>
+            </aside>
+            <aside class="flex-child right">
+                <div class="ratings">
+                    Rated 5 Stars in Reviews
+                </div>
+                <div class="ratings">
+                    Rated 5 Stars in Report Guru
+                </div>
+                <div class="ratings">
+                    Rated 5 Stars in BestTech
+                </div>
+            </aside>
+        </section>
+      <div class="card-deck">
+            <div id="quotes" class="card"> 
+            <div class="card-body">
+                <img src="images/image-colton.jpg" alt="colton">
+                <div class="card-title">
+                    <h5>Colton Smith</h5>
+                    <h6>Verified Buyer</h6>
+                </div>
+                <div class="card-text">
+                    <blockquote>
+                    "We needed the same printed design as the one we had ordered a week prior.
+                    Not only did they find the original order, but we also received it in time. Excellent!"
+                    </blockquote>
+                </div>
+                </div>
+            </div><!--End card--> 
+        <div id="quotes" class="card">
+            <div class="card-body">
+                <img src="images/image-irene.jpg" alt="irene">
+                <div class="card-title">
+                    <h5>Irene Roberts</h5> 
+                    <h6>Verified Buyer</h6>
+                </div>
+                <div class="card-text">
+                    <blockquote>"Customer service is always excellent and very quick turn around. Completely
+                    delighted with the simplicity of the purchase and the speed of delivery."
+                    </blockquote>
+                </div>
+              </div>
+            </div>
+          <div id="quotes" class="card">
+            <div class="card-body">
+                <img src="images/image-anne.jpg">
+                <div class="card-title">
+                <h5>Anne Wallace</h5> 
+                <h6>Verified Buyer</h6>
+              </div>
+                <div class="card-text">
+                    <blockquote>
+                    "Put an order with this company and can only praise them for the very high
+                    standard. Will definitely use them again and recommend them to everyone!"
+                    </blockquote>
+                </div>
+              </div><!--End body-->
+            </div><!--End card-->
+        </div><!--End deck-->
+      </div><!--End container-->
   </body>
+    <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Ryan Rua</a>.
+        </div>
+    </footer>
 </html>

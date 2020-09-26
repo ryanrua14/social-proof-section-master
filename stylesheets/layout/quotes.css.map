@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAO;EACH,OAAO,EAAE,IAAI;EAEb,WAAG;IAEK,aAAM,EAAE,GAAG",
+"sources": ["quotes.scss"],
+"names": [],
+"file": "quotes.css"
+}

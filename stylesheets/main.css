@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap");
+.container {
+  margin: 5%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.flex-container .flex-child {
+  flex: 1;
+}
+
+@media only screen and (max-width: 740px) {
+  .flex-container {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+.card-deck :nth-child(2) {
+  margin-top: 15px;
+}
+.card-deck :nth-child(3) {
+  margin-top: 30px;
+}
+
+#quotes {
+  background-color: #502050;
+  color: #ffffff;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 25px;
+  column-gap: normal;
+  width: 30%;
+}
+#quotes img {
+  float: left;
+  padding-right: 25px;
+  border-radius: 50%;
+}
+
+.card-title {
+  float: center;
+}
+.card-title h5 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.card-title h6 {
+  color: #ee68a4;
+}
+
+.card-text {
+  float: left;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 740px) {
+  .card-deck {
+    margin-top: 10px;
+  }
+
+  #quotes {
+    width: 100%;
+    padding: 2%;
+  }
+}
+.left .bigText {
+  color: #502050;
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+.left p {
+  color: #937b92;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 740px) {
+  .left {
+    width: 100%;
+  }
+}
+.right .ratings {
+  background-color: #f7f2f7;
+  color: #502050;
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 15px;
+  margin-bottom: 2%;
+  padding: 15px;
+  width: 75%;
+}
+.right :nth-of-type(2) {
+  margin-left: 30px;
+}
+.right :nth-of-type(3) {
+  margin-left: 60px;
+}
+
+@media only screen and (max-width: 740px) {
+  .right .ratings {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.attribution {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("/images/bg-pattern-top-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-image: url("/images/bg-pattern-bottom-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*# sourceMappingURL=main.css.map */

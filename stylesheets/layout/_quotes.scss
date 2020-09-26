@@ -1,0 +1,49 @@
+.card-deck{
+    :nth-child(2){
+        margin-top: 15px;
+    }//End
+    :nth-child(3){
+        margin-top: 30px;
+    }//End
+}//End 
+
+#quotes{
+    @include backgroundColor($magneta);
+    @include textColor($white, $spartan, $fourHundred, $fifteenPx);
+    @include roundedBorder(25px);
+    column-gap: normal;
+    width: 30%;
+    img{
+        float: left;
+        padding-right: 25px;
+        border:{
+            radius: 50%;
+        }//End border
+    }//End img
+}//End class
+
+.card-title{
+    float: center;
+    h5{
+        color: $white;
+        font-weight: 700;
+    }//End 
+    h6{
+        color: $pink;
+    }//End
+}//End class
+
+.card-text{
+    float: left;
+    font-weight: 500;
+}//End class
+
+@media only screen and (max-width: 740px){
+    .card-deck{
+        margin-top: 10px;
+    }
+    #quotes{
+        width: 100%;
+        padding: 2%;
+    }//End
+}

@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background:{
+        image:url("/images/bg-pattern-top-desktop.svg");
+        size: cover;
+        repeat: no-repeat;
+    }//End background
+}//End body
+
+footer{
+    background:{
+        image:url("/images/bg-pattern-bottom-desktop.svg");
+        size: contain;
+        repeat: no-repeat;
+    }//End background
+}//End footer
