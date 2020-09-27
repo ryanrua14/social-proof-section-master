@@ -1,11 +1,16 @@
 .right{
     .ratings{
         @include backgroundColor($lightGrayMagneta);
-        @include textColor($magneta, $spartan, 900, $fifteenPx);
+        @include textColor($magneta, $spartan, $sevenHundred, $fifteenPx);
         @include roundedBorder(15px);
+        text-align: left;
         margin-bottom: 2%;
         padding: 15px;
         width: 75%;
+        svg{
+            margin: 0;
+            height: 15px !important;
+        }//End
     }//End ratings
     :nth-of-type(2){
         margin-left: 30px;
@@ -21,6 +26,8 @@
         .ratings{
             width: 100%;
             margin-left: 0;
+            text-align: center;
+          
         }//End ratings
     }//End right
 }//End

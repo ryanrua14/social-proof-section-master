@@ -92,12 +92,17 @@
   background-color: #f7f2f7;
   color: #502050;
   font-family: "Spartan", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 15px;
   border-radius: 15px;
+  text-align: left;
   margin-bottom: 2%;
   padding: 15px;
   width: 75%;
+}
+.right .ratings svg {
+  margin: 0;
+  height: 15px !important;
 }
 .right :nth-of-type(2) {
   margin-left: 30px;
@@ -110,6 +115,7 @@
   .right .ratings {
     width: 100%;
     margin-left: 0;
+    text-align: center;
   }
 }
 .attribution {
