@@ -23,3 +23,11 @@
 @mixin roundedBorder($pixels){
     border-radius: $pixels;
 }
+
+@mixin backgroundImage($image, $cover, $no-repeat){
+    background:{
+        image:url($image);
+        size: $cover;
+        repeat: no-repeat;
+    }//End 
+}//End

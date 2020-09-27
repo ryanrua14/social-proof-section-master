@@ -4,6 +4,9 @@
 }
 
 .flex-container {
+  background-image: url("/images/bg-pattern-top-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -18,8 +21,16 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-image: url("/images/bg-pattern-top-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     flex-direction: column;
   }
+}
+.card-deck {
+  background-image: url("/images/bg-pattern-bottom-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .card-deck :nth-child(2) {
   margin-top: 15px;
@@ -62,6 +73,9 @@
 
 @media only screen and (max-width: 740px) {
   .card-deck {
+    background-image: url("/images/bg-pattern-bottom-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-top: 10px;
   }
 
@@ -127,9 +141,7 @@ html {
 }
 
 body {
-  background-image: url("/images/bg-pattern-top-desktop.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin: 0;
 }
 
 footer {

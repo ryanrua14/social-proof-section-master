@@ -1,4 +1,5 @@
 .card-deck{
+    @include backgroundImage($desktopBottom, contain, no-repeat);
     :nth-child(2){
         margin-top: 15px;
     }//End
@@ -40,6 +41,7 @@
 
 @media only screen and (max-width: 740px){
     .card-deck{
+        @include backgroundImage($mobileBottom, contain, no-repeat);
         margin-top: 10px;
     }
     #quotes{

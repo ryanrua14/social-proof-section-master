@@ -1,4 +1,5 @@
 .flex-container{
+    @include backgroundImage($desktopTop, contain, no-repeat);
     display: flex;
     flex:{
         wrap: wrap;
@@ -12,6 +13,7 @@
 @media only screen and (max-width: 740px){
     .flex-container{
         @include centerAll(center);
+        @include backgroundImage($mobileTop, contain, no-repeat);
         flex-direction: column;
     }//End
   
